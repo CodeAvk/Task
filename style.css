@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3e3e3e;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+input {
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  color: #3e3e3e;
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+#error-message {
+  color: #f55;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+#result-message {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
